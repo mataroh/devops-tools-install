@@ -1,11 +1,11 @@
 # DevOps Tools Install Script
 
-Este repositório contém um script para instalar as principais ferramentas DevOps em sistemas Linux (recomendado para uso com WSL2 + Ubuntu):
+Este repositório contém um script bash para instalar algumas das principais ferramentas DevOps para sistema operacional Linux:
 
-- ✅ Terraform
-- ✅ Ansible (com Python)
-- ✅ AWS CLI
 - ✅ Python 3 e pip
+- ✅ AWS CLI
+- ✅ Terraform
+- ✅ Ansible
 
 ---
 
@@ -23,7 +23,7 @@ Este repositório contém um script para instalar as principais ferramentas DevO
 ### 1. Clone este repositório
 
 ```bash
-git clone https://github.com/<seu-usuario>/devops-tools-install.git
+git clone https://github.com/mataroh/devops-tools-install.git
 cd devops-tools-install
 ````
 ### 2. Dê permissão de execução ao script
@@ -34,9 +34,7 @@ chmod +x install-devops-tools.sh
 
 ### Requisitos
 
-Sistema baseado em Debian/Ubuntu (recomendado: Ubuntu no WSL2)
-
-Conexão com a internet
+Sistema baseado em Debian/Ubuntu
 
 Permissões de sudo
 
